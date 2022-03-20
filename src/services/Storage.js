@@ -20,10 +20,7 @@ export class Storage {
   static getLinks() {
     return localStorage.getItem("welcome-links")
       ? this.get("welcome-links")
-      : [
-          { url: "https://www.google.com", name: "Google" },
-          { url: "https://www.google.com", name: "Google" },
-        ];
+      : [];
   }
 
   static setLinks(links) {
