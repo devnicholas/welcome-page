@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import Fonts */
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@200;400;600&display=swap");
+
+html,
+body {
+  font-family: "IBM Plex Serif", "Times New Roman", Times, serif;
+  @apply font-normal;
+}
+
+.icon-config {
+  @apply transition rounded px-2 py-1 cursor-pointer;
+}
